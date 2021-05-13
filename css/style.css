@@ -53,12 +53,12 @@ body{
 }
 
 .card{
-	width: 194px;
+	width: 200px;
 	height: 300px;
 	background-color: #fff;
 	float:left;
-	margin-right: 8px;
-	margin-bottom: 8px;
+	margin-right: 12px;
+	margin-bottom: 12px;
 	text-align: center;
 }
 
