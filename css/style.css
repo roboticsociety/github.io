@@ -77,7 +77,8 @@ body{
 	max-width: 1024px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-bottom: 20px;
+	padding: 0px 5px 20px 5px;
+	text-align: justify;
 }
 
 .projectHead{
@@ -91,13 +92,23 @@ body{
 	margin-bottom: 10px;
 }
 
+.projectDescription{
+	width: 64%;
+	display: inline-block;
+}
+.projectDescription p{
+	text-align: justify;
+}
+
 .projectImage {
 	height: 100%;
 	overflow: auto;
     display: inline-block;
     width: 34%; 
 }
-
+.projectImage img{
+	width: 100%;
+}
 
 .links a {
   font-weight: bold;
@@ -130,3 +141,61 @@ body{
 .whiteText{
 	color: #fff;
 }
+
+@media only screen and (max-width: 768px) {
+	.titleText{
+		font-size: 4em;
+		padding-top:20px;
+	}
+	.subTitleText{
+		font-size: 2em;
+	}
+	.header{
+		height: 180px;
+	}
+	.projectBody div{
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.titleText{
+		font-size: 2.6em;
+		padding-top:16px;
+	}
+	.subTitleText{
+		font-size: 1.4em;
+	}
+	.header{
+		height: 140px;
+	}
+
+	.projectImage {
+		width: 100%; 
+	}
+	.projectImage img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+	}
+	.sectionImg{
+		display: none;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
